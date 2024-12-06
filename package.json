@@ -1,7 +1,6 @@
 {
   "name": "testapp",
   "version": "1.0.0",
-  "description": "An advanced Node.js app with Express, configuration, and routes.",
   "main": "server.js",
   "scripts": {
     "start": "node ./bin/server.js"
