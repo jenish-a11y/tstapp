@@ -4,20 +4,18 @@
   "description": "An advanced Node.js app with Express, configuration, and routes.",
   "main": "server.js",
   "scripts": {
-    "start": "node ./bin/server.js",
-    "dev": "nodemon server.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "start": "node ./bin/server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "author": "Your Name",
-  "license": "MIT"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.1",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.0",
+    "serve-favicon": "~2.4.5"
+  }
 }
 
